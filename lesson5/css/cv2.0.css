@@ -6,6 +6,11 @@ h1 {
 	font-family: monospace;
 }
 
+.main-area {
+	display: flex;
+	justify-content: flex-end;
+}
+
 .myinfo {
 	color: dimgray;
 	font-family: cursive;
