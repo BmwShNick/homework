@@ -1,0 +1,65 @@
+h1 {
+	background-color: lightslategray;
+	color: darkorange;
+	text-align: center;
+	font-size: 55px;
+	font-family: monospace;
+}
+
+.main-area {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.myinfo {
+	color: dimgray;
+	font-family: cursive;
+	font-size: 20px;
+}
+
+.email {
+	color: teal;
+	font-family: fantasy;
+	font-size: 21px;
+}
+
+.advantages {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-style: italic;
+}
+
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(
+		135deg,
+		#0000ff 0%,
+		#8080ff 25%,
+		#8cf2e3 50%,
+		#a8ff51 75%,
+		#ffff80 100%
+	);
+	border: 3px solid black;
+	width: 120px;
+	height: 80px;
+	margin: 45px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 30px 8px 30px 8px;
+	transform: scale(1.2);
+}
+
+.box:hover {
+	box-shadow: -5px 10px 40px rgba(0, 255, 136, 0.637);
+	transition: 1.2s;
+}
+
+.insta {
+	color: #262626;
+}
+
+.insta:hover {
+	color: red;
+}
