@@ -1,0 +1,483 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Work+Sans:wght@300;400;500;700&display=swap");
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Work Sans", sans-serif;
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+header {
+	margin-bottom: 58px;
+}
+
+.header_navigation {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	margin-bottom: 55px;
+}
+
+.header_navigation_left-top {
+	display: flex;
+}
+
+.header_navigation_right-top {
+	display: flex;
+}
+
+.navi-chat {
+	font-size: 12px;
+	line-height: 16px;
+	color: #6a983c;
+	margin-right: 33px;
+}
+
+.navi-left {
+	font-size: 12px;
+	line-height: 16px;
+	color: #151515;
+	margin-right: 33px;
+}
+
+.navi-green {
+	font-size: 12px;
+	line-height: 16px;
+	color: #6a983c;
+	margin-left: 38px;
+}
+
+.freshnesecom {
+	font-size: 30px;
+	font-weight: bold;
+	color: #151515;
+}
+
+.header_navi-bottom {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header_search {
+	margin-left: 28px;
+	border: none;
+	margin-right: 10px;
+	height: 19px;
+	width: 262px;
+	border-left: 1px solid #d1d1d1;
+	padding-left: 24px;
+}
+
+.header_second-line {
+	padding: 10px 15px;
+	border: 1px solid #d1d1d1b0;
+	border-radius: 12px;
+}
+
+.header_categories {
+	background: #f9f9f9;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 22px;
+	color: #151515;
+	border: none;
+	padding-right: 19px;
+}
+
+.container {
+	margin-bottom: 80px;
+	padding: 15px;
+	background: #f9f9f9;
+}
+
+.header_categories:hover,
+.header_categories:focus-within {
+	color: rgb(0, 0, 0);
+	background-color: rgb(197, 226, 184);
+	transform: scale(1.07);
+}
+
+.recepies-grid {
+	display: grid;
+	grid-template-columns: 369px 420px 420px;
+	grid-column-gap: 31px;
+}
+
+.menu {
+	margin-bottom: 120px;
+}
+
+.all-category-menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 0;
+	height: 280px;
+	width: 269px;
+}
+
+.menu-dishes {
+	margin-bottom: 48px;
+}
+
+.menu-button {
+	margin-top: auto;
+}
+
+.category-menu {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	color: #151515;
+	margin-bottom: 16px;
+}
+
+.body-menu {
+	margin-bottom: 80px;
+}
+
+.menu-food {
+	font-size: 14px;
+	line-height: 19px;
+	text-decoration-line: underline;
+	color: #6a983c;
+	margin-bottom: 12px;
+}
+
+.menu-cards {
+	display: flex;
+	align-items: center;
+}
+
+.menu-card {
+	border: 1px solid green;
+	background-image: url("../images/vegetables.svg");
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 280px;
+	width: 420px;
+	border-radius: 12px;
+	margin-right: 32px;
+	padding: 48px 33px 32px 33px;
+}
+
+.menu-banner-subfocus {
+	font-weight: bold;
+	weight: 600;
+	size: 12px;
+	color: #6a983c;
+	margin-bottom: 8px;
+}
+
+.space-for-heading {
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 33px;
+	color: #151515;
+}
+
+.read-recepies {
+	padding: 12px 16px;
+	font-weight: bold;
+	font-size: 15px;
+	color: #151515;
+	border: 2px solid #92c064;
+	box-sizing: border-box;
+	border-radius: 12px;
+}
+
+.menu-vector {
+	display: flex;
+}
+
+.menu-recepies {
+	display: flex;
+}
+
+.products {
+	margin-bottom: 137px;
+}
+
+.product-title-a {
+	border: 1px solid#d1d1d1;
+	height: 323px;
+	width: 269px;
+	border-radius: 12px;
+	padding: 16px;
+	margin-right: 32px;
+}
+
+.product-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 22px;
+	color: #151515;
+	margin-bottom: 5px;
+}
+
+.product-space-txt {
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	color: #575757;
+	margin-bottom: 15px;
+}
+
+.product-price {
+	margin: 0;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 27px;
+	color: #151515;
+}
+
+.product-price-btn {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.product-dead-price {
+	margin: 0;
+	font-weight: 600;
+	font-size: 12px;
+	text-decoration-line: line-through;
+	color: #a9a9a9;
+}
+
+.product-window {
+	display: flex;
+	justify-content: center;
+	height: 180px;
+	width: 237px;
+	left: 0px;
+	top: 0px;
+	border-radius: 12px;
+
+	background: #ddd8d8;
+	border-radius: 12px;
+	margin-bottom: 15px;
+}
+
+.product-card-content {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.product-green-btn {
+	height: 36px;
+	width: 90px;
+	border-radius: 12px;
+	background: #6a983c;
+	border: 2px solid #46760a;
+	box-sizing: border-box;
+	border-radius: 12px;
+}
+
+.product-green-btn:hover {
+	box-shadow: -5px 4px rgb(168, 235, 168, 0.5);
+	transition: 1s;
+	opacity: 0.9;
+}
+
+.product-buy-now {
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 22px;
+	color: #ffffff;
+}
+
+.farmers {
+	margin-bottom: 130px;
+}
+
+@keyframes starSpin-1 {
+	15% {
+		transform: translateX(50%) rotate(180deg);
+	}
+
+	25% {
+		transform: translateX(100) rotate(360deg) scale(0.4);
+	}
+
+	50% {
+		transform: translateX(200%) scale(0.5);
+	}
+
+	75% {
+		transform: translateX(300%) rotate(360deg) scale(0.4);
+	}
+
+	100% {
+		transform: translateX(400%);
+	}
+}
+
+@keyframes starSpin {
+	15% {
+		transform: translateX(50%) rotate(180deg);
+	}
+
+	25% {
+		transform: translateX(100) rotate(360deg) scale(0.4);
+	}
+
+	50% {
+		transform: translateY(-100%) scale(0.5);
+	}
+
+	75% {
+		transform: translateY(-150%) rotate(180deg) scale(0.4);
+	}
+
+	100% {
+		transform: translateY(-200%);
+	}
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 369px 269px 269px 269px;
+	grid-column-gap: 32px;
+}
+
+.animation {
+	display: flex;
+	align-items: flex-end;
+	width: 1260px;
+	height: 600px;
+	background-image: url(../images/andromeda-galaxy-royalty-free-image-1585682435.jpg);
+	margin-bottom: 170px;
+}
+
+.star {
+	animation: starSpin 3s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	width: 200px;
+	height: 200px;
+}
+
+.star-1 {
+	animation: starSpin-1 3s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	width: 200px;
+	height: 200px;
+}
+
+.boxes {
+	justify-content: center;
+	grid-template-columns: 300px 300px;
+	grid-template-rows: 5% 5% 5% 5%;
+	grid-gap: 50px;
+	display: grid;
+	margin-bottom: 150px;
+}
+
+.box {
+	text-align: center;
+	background: linear-gradient(
+		14deg,
+		#5656fc 0%,
+		#8080ff 25%,
+		#8cf2e3 50%,
+		#a8ff51 75%,
+		#ffff80 100%
+	);
+	box-shadow: violet;
+	color: rgb(118, 27, 170);
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 10px;
+	border: 1px solid rgba(129, 125, 125, 0.39);
+	border-radius: 35px 8px 35px 8px;
+}
+
+.box:hover {
+	color: rgb(238, 6, 53);
+	box-shadow: -5px -5px 10px 10px rgb(162, 236, 212);
+	transform: scale(1.1);
+	transition: 1s;
+}
+
+.box.scroll {
+	overflow: scroll;
+}
+
+.box.row {
+	font-size: 20px;
+	grid-auto-rows: minmax(50px, auto);
+}
+.box_1 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.footer-colunm {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 48px;
+}
+
+.footer-colunms {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-heading {
+	font-weight: 600;
+	font-size: 18px;
+	color: #151515;
+	margin-bottom: 16px;
+	margin-right: 200px;
+}
+.footer-txt {
+	font-weight: normal;
+	font-size: 14px;
+	color: #6a983c;
+	margin-bottom: 16px;
+}
+
+.footer-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-product-tags {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-words {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 4px 10px;
+	font-weight: 600;
+	font-size: 12px;
+	line-height: 18px;
+	background: #f0ececce;
+	border-radius: 12px;
+	margin-right: 36px;
+	margin-bottom: 45px;
+}
+
+.footer-end {
+	font-weight: normal;
+	font-size: 14px;
+	color: #151515;
+	margin-bottom: 65px;
+}
