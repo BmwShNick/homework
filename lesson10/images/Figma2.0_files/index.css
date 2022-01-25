@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&family=Roboto&family=Work+Sans:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans&family=Poppins&family=Roboto&family=Work+Sans:wght@300;400;500;700&display=swap");
+
+body {
+	font-family: "Josefin Sans", sans-serif;
+	background-color: silver;
+}
+
+.bhromaon {
+	/* background: url(../images/image.svg); */
+}
+
+.bhromaon-title {
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 26px;
+	text-align: center;
+	color: white;
+}
